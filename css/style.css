@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    color: white;
+
+}
+
+.BG_form {
+    background: url("../img/BG2.jpg")center top / cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav {
+    margin: 328px 97px 0px 174px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a {
+    writing-mode:vertical-rl;
+    transform:scale(-1);
+    margin-bottom: 42px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-left: 1px;
+    border-left: 3px solid transparent;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+ul li a:hover {
+    border-left: 3px solid #E2A83A;
+    transition: cubic-bezier(0,0,0,1) 1.5s;
+}
+
+.info{
+    margin-left: 97px;
+    width: 617px;
+    margin-right: 294px;
+}
+
+.indent{
+    display: flex;
+    margin-top: 183px;
+}
+
+.group{
+    margin-top: 15px;
+}
+
+.mainText{
+    font-size: 60px;
+    margin-top: 32px;
+}
+
+.orangeText{
+    color: #E2A83A;
+}
+
+.slogan{
+    font-size: 36px;
+}
+
+.sloganWhite{
+    margin-top: -30px;
+}
+
+.groupText{
+    margin-top: 15px;
+}
+
+.smallText{
+    font-size: 22px;
+}
+
+.contacts{
+    margin-top: 206px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+}
+.tell{
+    text-decoration: none;
+}
+
+.skillsForm{
+    width: 1059px;
+    height: 614px;
+    margin-right: 458px;
+    margin-left: 102px;
+}
+
+.verticalLine{
+    height: 3px;
+}
+
+.horizontalLine{
+    height: 200px;
+}
+
+ul li p {
+    margin-top: 40px;
+    margin-bottom: 204px;
+    margin-left: 22px;
+    margin-right: 263px;
+}
+
+ul li p:hover {
+    cursor: pointer;
+    color: #E2A83A;
+    transition: cubic-bezier(0,0,0,1) 1.5s;
+}
+
+.Rindent {
+    margin-right: 24px;
+}
+
+.achievementsForm{
+    width: 1063px;
+    height: 582px;
+    margin-right: 394px;
+    margin-left: 162px;
+    justify-content: space-between;
+}
+
+.box{
+    margin-top: 129px;
+}
+
+.box:hover{
+    margin-top: 0px;
+    transition: cubic-bezier(0,0,0,1) 1.5s;
+}
+
+.achievementText{
+    text-align: center;
+    margin-top: 40px;
+}

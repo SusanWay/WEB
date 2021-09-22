@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="BG_form">
+        <div class="nav">
+            <ul>
+                <li><a id="btn1">Обо мне</a></li>
+                <li><a id="btn2">Навыки</a></li>
+                <li><a id="btn3">Достижения</a></li>
+            </ul>
+        </div>
+        <div class='indent' style="display:flex" id="start_form" hidden="false">
+            <div class="group">
+                <img src="img/myPhoto.jpg" alt="">
+            </div>
+            <div class="info">
+
+                <img class="MyPhoto" src="img/Line 1.svg" alt="">
+               <div>
+                    <p class="mainText">Заев Владислав</p> <br>
+                    <p class="groupText orangeText slogan">Я - просто человек,</p> <br>
+                    <p class="slogan sloganWhite">в свободное время программист</p> <br/>
+                    <p class="groupText smallText">Особенности разработки любого программного продукта: катастрофически не хватает 
+                        времени на то, чтобы избавиться от багов, зато времени на то, чтобы сделать их 
+                        еще больше, всегда хватает.
+                    </p> <br/>
+                </div>
+                <div class="contacts">
+                    <img src="img/vk.svg" alt="">
+                    <img src="img/google.svg" alt="">
+                    <img src="img/mail.svg" alt="">
+                    <a class="tell orangeText" href="tel:+89601578961">8-960(157)-89-61</a>
+              </div>
+            </div>
+        </div>
+
+        <div style="display:none" id="skills_form" hidden="true" >
+            <div class="skillsForm indent">
+                <div style="margin-top: 10px;">
+                    <img class="horizontalLine" src="img/Line 4.svg" alt="">
+                </div>
+                <div>
+                    <img class="verticalLine" src="img/Line 5.svg" alt="">
+                    <div style="display: flex">
+                        <div>
+                            <ul>
+                                <li><p class="slogan">Photoshop</p></li>
+                                <li><p class="slogan">Illustrator</p></li>
+                                <li><p style="margin-bottom: 10px;" class="slogan">VegasPro</p></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><p class="slogan">C++</p></li>
+                                <li><p class="slogan">C#</p></li>
+                                <li><p style="margin-bottom: 10px;" class="slogan">Unity</p></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><p class="slogan Rindent">Python</p></li>
+                                <li><p class="slogan Rindent">MySQL</p></li>
+                                <li><p style="margin-bottom: 10px;" class="slogan Rindent">Cinema4D</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img class="verticalLine" style="margin-left: 574px;" src="img/Line 3.svg" alt="">
+                </div>
+                <div style="margin-top: 415px;">
+                    <img class="horizontalLine" src="img/Line 4.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div style="display:none" id="achievements_form" hidden="true" >
+            <div class="achievementsForm indent">
+                <div class="box">
+                    <img class="amgIndent" src="img/diploma1.jpg" alt="">
+                    <p class="achievementText smallText">Цифровой прорыв<br>8-место</p>
+                </div>
+                <div class="box">
+                    <img class="amgIndent" src="img/diploma3.jpg" alt="">
+                    <p class="achievementText smallText">НЛМК РАЗРеши<br>II-место</p>
+                </div>
+                <div class="box">
+                    <img class="amgIndent" src="img/diploma2.jpg" alt="">
+                    <p class="achievementText smallText">Дата-Хакатон<br>Участник</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
