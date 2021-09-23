@@ -97,13 +97,13 @@ ul li a:hover {
     align-items: center;
 }
 
-.vkLogo{
+.logo{
     width:  3.64vw;
     height: 7.4vh;
     margin: 1.6vh   0.7vw;
 }
 
-.vkLogo:hover{
+.logo:hover{
     width:  5.2vw;
     height: 10.6vh;
     margin: 0;
