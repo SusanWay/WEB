@@ -35,7 +35,7 @@ ul li a {
     margin-bottom:2.3vh;
     text-transform: uppercase;
     font-weight: bolder;
-    padding-left: 1px;
+    padding-left: 0.05vw;
     border-left: 3px solid transparent;
     cursor: pointer;
 }
@@ -47,9 +47,9 @@ ul li a:hover {
 }
 
 .info{
-    margin-left: 97px;
-    width: 617px;
-    margin-right: 294px;
+    margin-left: 5.05vw;
+    width: 32.13vw;
+    margin-right: 15.3vw;
 }
 
 .indent{
@@ -58,12 +58,17 @@ ul li a:hover {
 }
 
 .group{
-    margin-top: 15px;
+    margin-top: 1.6vh;
+}
+
+.myPhoto{
+    width: 31.82vw;
+    height: 63.28vh;
 }
 
 .mainText{
-    font-size: 60px;
-    margin-top: 32px;
+    font-size: 6.4vh;
+    margin-top: 3.4vh;
 }
 
 .orangeText{
@@ -71,15 +76,15 @@ ul li a:hover {
 }
 
 .slogan{
-    font-size: 36px;
+    font-size: 3.8vh;
 }
 
 .sloganWhite{
-    margin-top: -30px;
+    margin-top: -3.2vh;
 }
 
 .groupText{
-    margin-top: 15px;
+    margin-top: 1.6vh;
 }
 
 .smallText{
@@ -87,52 +92,61 @@ ul li a:hover {
 }
 
 .contacts{
-    margin-top: 206px;
-    font-size: 36px;
+    margin-top: 21.98vh;
     display: flex;
     align-items: center;
-    margin-bottom: auto;
 }
+
+.vkLogo{
+    width:  3.64vw;
+    height: 7.4vh;
+    margin: 1.6vh   0.7vw;
+}
+
+.vkLogo:hover{
+    width:  5.2vw;
+    height: 10.6vh;
+    margin: 0;
+    transition: cubic-bezier(0,0,0,1) 1.5s;
+}
+
 .tell{
     text-decoration: none;
 }
 
 .skillsForm{
-    width: 1059px;
-    height: 614px;
-    margin-right: 458px;
-    margin-left: 102px;
-}
-
-.verticalLine{
-    height: 3px;
+    width: 55.15vw;
+    height: 65.5vh;
+    margin-right: 21.35vw;
+    margin-left:  7.81vw;
 }
 
 .horizontalLine{
-    height: 200px;
+    height: 21.3vh;
 }
 
 ul li p {
-    margin-top: 40px;
-    margin-bottom: 204px;
-    margin-left: 22px;
-    margin-right: 263px;
+    margin-top: 4.26vh;
+    margin-bottom: 21.77vh;
+    margin-left: 1.14vw;
+    margin-right:  13.7vw;
 }
 
 ul li p:hover {
     cursor: pointer;
     color: #E2A83A;
+    font-size: 5.2vh;
     transition: cubic-bezier(0,0,0,1) 1.5s;
 }
 
 .Rindent {
-    margin-right: 24px;
+    margin-right: 1.25vw;
 }
 
 .achievementsForm{
     width: 55.15vw;
     height: 61vh;
-    margin-right: 20.4vw;
+    margin-right: 20.2vw;
     margin-left: 8.9vw;
     justify-content: space-between;
 }
