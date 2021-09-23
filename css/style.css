@@ -22,7 +22,7 @@
 }
 
 .nav {
-    margin: 328px 97px 0px 174px;
+    margin: 35vh 5vw 0vh 9vw;
 }
 
 ul{
@@ -32,12 +32,11 @@ ul{
 ul li a {
     writing-mode:vertical-rl;
     transform:scale(-1);
-    margin-bottom: 42px;
+    margin-bottom:2.3vh;
     text-transform: uppercase;
     font-weight: bolder;
     padding-left: 1px;
     border-left: 3px solid transparent;
-    font-size: 22px;
     cursor: pointer;
 }
 
@@ -55,7 +54,7 @@ ul li a:hover {
 
 .indent{
     display: flex;
-    margin-top: 183px;
+    margin-top: 19.5vh;
 }
 
 .group{
@@ -84,7 +83,7 @@ ul li a:hover {
 }
 
 .smallText{
-    font-size: 22px;
+    font-size: 2.3vh;
 }
 
 .contacts{
@@ -131,15 +130,15 @@ ul li p:hover {
 }
 
 .achievementsForm{
-    width: 1063px;
-    height: 582px;
-    margin-right: 394px;
-    margin-left: 162px;
+    width: 55.15vw;
+    height: 61vh;
+    margin-right: 20.4vw;
+    margin-left: 8.9vw;
     justify-content: space-between;
 }
 
 .box{
-    margin-top: 129px;
+    margin-top: 13.6vh;
 }
 
 .box:hover{
@@ -147,7 +146,14 @@ ul li p:hover {
     transition: cubic-bezier(0,0,0,1) 1.5s;
 }
 
+.imgIndent{
+    width: 13vw;
+    height: 37.6vh;
+}
+
 .achievementText{
     text-align: center;
-    margin-top: 40px;
+    margin-top:  4.2vh;
 }
+
+
