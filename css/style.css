@@ -1,173 +1,114 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Abhaya Libre', serif;
-    font-weight: 800;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
     color: white;
-
+    background-color: #040404;
 }
 
-.BG_form {
-    background: url("../img/BG2.jpg")center top / cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    position: center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+::selection {
+    background: #c22085; /* Цвет фона */
+    color: #fff; /* Цвет текста */
 }
 
-.nav {
-    margin: 35vh 5vw 0vh 9vw;
+li {
+    list-style-type: none; /* Убираем маркеры */
 }
 
-ul{
-    list-style-type: none;
+.largeText{
+    font-size: 40px;
 }
 
-ul li a {
-    writing-mode:vertical-rl;
-    transform:scale(-1);
-    margin-bottom:2.3vh;
-    text-transform: uppercase;
-    font-weight: bolder;
-    padding-left: 0.05vw;
-    border-left: 3px solid transparent;
-    cursor: pointer;
-}
-
-
-ul li a:hover {
-    border-left: 3px solid #E2A83A;
-    transition: cubic-bezier(0,0,0,1) 1.5s;
-}
-
-.info{
-    margin-left: 5.05vw;
-    width: 32.13vw;
-    margin-right: 15.3vw;
-}
-
-.indent{
-    display: flex;
-    margin-top: 19.5vh;
-}
-
-.group{
-    margin-top: 1.6vh;
-}
-
-.myPhoto{
-    width: 31.82vw;
-    height: 63.28vh;
-}
-
-.mainText{
-    font-size: 6.4vh;
-    margin-top: 3.4vh;
-}
-
-.orangeText{
-    color: #E2A83A;
-}
-
-.slogan{
-    font-size: 3.8vh;
-}
-
-.sloganWhite{
-    margin-top: -3.2vh;
-}
-
-.groupText{
-    margin-top: 1.6vh;
+.middleText{
+    font-size: 30px;
 }
 
 .smallText{
-    font-size: 2.3vh;
+    font-size: 20px;
 }
 
-.contacts{
-    margin-top: 21.98vh;
+.purpleText{
+    color:#c22085;
+}
+
+.blueText{
+    color: #2d9687;
+}
+
+.brownText{
+    color: #e9b171;
+}
+
+.conteiner{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu ul a{
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.nav{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li{
+    display: flex;
+}
+
+.mainBox{
+    margin-top: 100px;
+    display: flex;
+}
+
+.box{
+    width: 585px;
+}
+
+.mainText{
+    margin-top: 250px;
+    margin-bottom: 470px;
+}
+
+section{
+    padding-top: 150px;
+}
+
+.aboutText p{
+    margin-bottom: 50px;
+    text-align: justify;
+    margin-left: 70px;
+}
+
+.skillsText{
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsText ul li p{
+    margin-top: 50px;
+}
+
+.skillsText ul li p:hover{
+    color: #2d9687;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #c22085;
+    transition: 0.6s;
+}
+
+.smallBox{
+    margin-top: 50px;
     display: flex;
     align-items: center;
 }
 
-.logo{
-    width:  3.64vw;
-    height: 7.4vh;
-    margin: 1.6vh   0.7vw;
-}
-
-.logo:hover{
-    width:  5.2vw;
-    height: 10.6vh;
-    margin: 0;
-    transition: cubic-bezier(0,0,0,1) 1.5s;
-}
-
-.tell{
+.smallBox a{
     text-decoration: none;
+    margin-left: 70px;
 }
-
-.skillsForm{
-    width: 55.15vw;
-    height: 65.5vh;
-    margin-right: 21.35vw;
-    margin-left:  7.81vw;
-}
-
-.horizontalLine{
-    height: 21.3vh;
-}
-
-ul li p {
-    margin-top: 4.26vh;
-    margin-bottom: 21.77vh;
-    margin-left: 1.14vw;
-    margin-right:  13.7vw;
-}
-
-ul li p:hover {
-    cursor: pointer;
-    color: #E2A83A;
-    font-size: 5.2vh;
-    transition: cubic-bezier(0,0,0,1) 1.5s;
-}
-
-.Rindent {
-    margin-right: 1.25vw;
-}
-
-.achievementsForm{
-    width: 55.15vw;
-    height: 61vh;
-    margin-right: 20.2vw;
-    margin-left: 8.9vw;
-    justify-content: space-between;
-}
-
-.box{
-    margin-top: 13.6vh;
-}
-
-.box:hover{
-    margin-top: 0px;
-    transition: cubic-bezier(0,0,0,1) 1.5s;
-}
-
-.imgIndent{
-    width: 13vw;
-    height: 37.6vh;
-}
-
-.achievementText{
-    text-align: center;
-    margin-top:  4.2vh;
-}
-
-
