@@ -85,6 +85,10 @@ li {
     display: flex;
 }
 
+.mainBox.info{
+    margin-bottom: 100px;
+}
+
 .box{
     width: 585px;
 }
@@ -121,7 +125,7 @@ section{
 }
 
 .smallBox{
-    margin-top: 50px;
+    margin: 25px 0px;
     display: flex;
     align-items: center;
 }
@@ -188,7 +192,6 @@ section{
     .aboutPic img{
         margin-top: auto;
     }
-
 
     .aboutText p{
         margin-bottom: 20px;
@@ -257,39 +260,158 @@ section{
     .img-rotate.particles.smallPic{
         display: flex;
     }
+}
 
-    .aboutPic img{
-        margin-top: auto;
+@media screen and (max-width: 768px) {
+
+    .container{
+        width: 585px;
+        justify-content: center;
     }
 
-
-    .aboutText p{
-        margin-bottom: 20px;
-        text-align: inherit;
-        margin-left: 70px;
+    .box{
+        width: 585px;
     }
 
     .mainBox{
-        margin-top: 150px;
-    }
-
-    .mainBox.info{
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
-
-    .smallBox.info{
-        margin: 30px 0px;
+        display: block;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 600px;
     }
 
     .mainText{
-        margin-top: 150px;
-        margin-bottom: 150px;
-        font-size: 26px;
+        margin: 0;
+        text-align: center;
     }
 
-    .skillsText ul li p{
-        margin-top: 0px;
-        margin-bottom: 30px;
+    .largePic{
+        display: flex;
+    }
+
+    .aboutPic{
+        display: none;
+    }
+
+    .middlePic{
+        display: none;
+    }
+    
+    .smallPic{
+        display: none;
+    }
+
+    .img-rotate.particles.largePic{
+        display: flex;
+    }
+
+    .img-rotate.particles.middlePic{
+        display: none;
+    }
+
+    .img-rotate.particles.smallPic{
+        display: none;
+    }
+
+    .skillsText{
+        display: flow-root;
+        justify-content: center;
+    }
+
+    .box.aboutText{
+        width: 585px;
+    }
+    .box.aboutText p{
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 585px) {
+
+    .container{
+        width: 400px;
+    }
+
+    .box{
+        width: 400px;
+    }
+
+    .largePic{
+        display: none;
+    }
+
+    .middlePic{
+        display: flex;
+    }
+    
+
+    .img-rotate.particles.largePic{
+        display: none;
+    }
+
+    .img-rotate.particles.middlePic{
+        display: flex;
+    }
+
+    .box.aboutText{
+        width: 400px;
+    }
+
+    .mainBox{
+        margin-bottom: 500px;
+    }
+
+    .refPic{
+        width: 70px;
+        height: 70px;
+    }
+
+    .smallBox a{
+        margin: 0;
+    }
+
+    .smallBox a{
+        display: flex;
+        margin: 40px 0px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .smallBox.infoH{
+        display: flex;
+        align-items: center;
+        margin-left: 70px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        width: 360px;
+    }
+
+    .box {
+        width: 360px;
+    }
+
+    .smallPic{
+        display: flex;
+    }
+
+    .middlePic{
+        display: none;
+    }
+    
+
+    .img-rotate.particles.smallPic{
+        display: flex;
+    }
+
+    .img-rotate.particles.middlePic{
+        display: none;
+    }
+
+    .box.aboutText{
+        width: 360px;
     }
 }
