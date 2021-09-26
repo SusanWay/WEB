@@ -1,7 +1,3 @@
-body {
-    background-color: #040404;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +6,16 @@ body {
     color: white;
 }
 
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #040404;
+}
 
 ::selection {
     background: #c22085; /* Цвет фона */
