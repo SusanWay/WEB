@@ -14,12 +14,14 @@
 <body>
 <header class="header">
     <div class="container nav middleText">
-        <p>&#60;main&#62;</p>
-        <ul class="menu">
-            <li><a href="">&#60;about&#62;</a></li>
-            <li><a href="">&#60;skills&#62;</a></li>
-            <li><a href="">&#60;contact&#62;</a></li>
-        </ul>
+        <p class="main">&#60;main&#62;</p>
+        <div>
+            <ul class="menu">
+            <li class="about"><a href="#about"><span>&#60;about&#62;</span></a></li>
+            <li class="skills"><a href="#skills"><span>&#60;skills&#62;</span></a></li>
+            <li class="contact"><a href="#contact"><span>&#60;contact&#62;</span></a></li>
+            </ul>
+        </div>
     </div>
     <div class="container mainBox">
         <div class="middleText box mainText">
@@ -36,7 +38,7 @@
     </div>
 </header>
 <section class="container">
-    <p class="middleText purpleText">&#60;about&#62;</p>
+    <p class="middleText purpleText" id="about">&#60;about&#62;</p>
     <div class="container mainBox info">
         <div class="box aboutText">
             <p class="largeText">Заев Владислав</p>
@@ -53,7 +55,7 @@
     </div>
     <p class="middleText purpleText">&#60;/about&#62;</p>
 </section>
-<section class="container">
+<section class="container" id="skills">
     <p class="middleText blueText">&#60;skills&#62;</p>
     <div class="skillsText mainBox info">
         <div>
@@ -80,7 +82,7 @@
     </div>
     <p class="middleText blueText">&#60;/skills&#62;</p>
 </section>
-<section class="container">
+<section class="container" id="contact">
     <p class="middleText brownText">&#60;contact&#62;</p>
     <div class="smallBox info infoH" >
         <a class="refPic" href="https://vk.com/susanway"><img src="img/ВК.svg" alt=""></a>
