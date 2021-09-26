@@ -10,6 +10,11 @@ body {
     color: white;
 }
 
+html, body, head {
+    /* Убирает прокрутку по горизонтале, для мобильной версии */
+    overflow-x: hidden;
+}
+
 ::selection {
     background: #c22085; /* Цвет фона */
     color: #fff; /* Цвет текста */
@@ -41,6 +46,18 @@ li {
 
 .brownText{
     color: #e9b171;
+}
+
+.largePic{
+    display: inline;
+}
+
+.middlePic{
+    display: none;
+}
+
+.smallPic{
+    display: none;
 }
 
 .container{
@@ -124,7 +141,155 @@ section{
     position: absolute;
 }
 
-.img-rotate.particles{
+.img-rotate.particles.largePic{
     display: flex;
     animation: infinite-rotate 20s linear infinite reverse;
+}
+
+.img-rotate.particles.middlePic{
+    display: none;
+    animation: infinite-rotate 20s linear infinite reverse;
+}
+
+.img-rotate.particles.smallPic{
+    display: none;
+    animation: infinite-rotate 20s linear infinite reverse;
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 800px;
+    }
+
+    .box{
+        width: 400px;
+    }
+
+    .box.aboutText{
+        width: 420px;
+    }
+
+    .largePic{
+        display: none;
+    }
+
+    .middlePic{
+        display: inline;
+    }
+
+    .img-rotate.particles.largePic{
+        display: none;
+    }
+
+    .img-rotate.particles.middlePic{
+        display: flex;
+    }
+
+    .aboutPic img{
+        margin-top: auto;
+    }
+
+
+    .aboutText p{
+        margin-bottom: 20px;
+        text-align: inherit;
+        margin-left: 70px;
+    }
+
+    .mainBox{
+        margin-top: 150px;
+    }
+
+    .mainBox.info{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .smallBox.info{
+        margin: 30px 0px;
+    }
+
+    .mainText{
+        margin-top: 150px;
+        margin-bottom: 150px;
+        font-size: 26px;
+    }
+
+    .skillsText ul li p{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .container{
+        width: 768px;
+    }
+
+    .box{
+        width: 384px;
+    }
+
+    .box.aboutText{
+        width: 388px;
+    }
+
+    .largePic{
+        display: none;
+    }
+
+    .middlePic{
+        display: none;
+    }
+    
+    .smallPic{
+        display: inline;
+    }
+
+    .img-rotate.particles.largePic{
+        display: none;
+    }
+
+    .img-rotate.particles.middlePic{
+        display: none;
+    }
+
+    .img-rotate.particles.smallPic{
+        display: flex;
+    }
+
+    .aboutPic img{
+        margin-top: auto;
+    }
+
+
+    .aboutText p{
+        margin-bottom: 20px;
+        text-align: inherit;
+        margin-left: 70px;
+    }
+
+    .mainBox{
+        margin-top: 150px;
+    }
+
+    .mainBox.info{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .smallBox.info{
+        margin: 30px 0px;
+    }
+
+    .mainText{
+        margin-top: 150px;
+        margin-bottom: 150px;
+        font-size: 26px;
+    }
+
+    .skillsText ul li p{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
 }
