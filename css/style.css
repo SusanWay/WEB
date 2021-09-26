@@ -121,4 +121,10 @@ section{
 
 .img-rotate {
     animation: infinite-rotate 20s linear infinite;
+    position: absolute;
+}
+
+.img-rotate.particles{
+    display: flex;
+    animation: infinite-rotate 20s linear infinite reverse;
 }
