@@ -10,10 +10,6 @@ body {
     color: white;
 }
 
-html, body, head {
-    /* Убирает прокрутку по горизонтале, для мобильной версии */
-    overflow-x: hidden;
-}
 
 ::selection {
     background: #c22085; /* Цвет фона */
