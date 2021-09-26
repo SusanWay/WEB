@@ -44,7 +44,7 @@ li {
     color: #e9b171;
 }
 
-a{
+ul li a{
   width: 200px;
   height: 40px;
   line-height: 40px;
@@ -196,6 +196,23 @@ section{
     animation: infinite-rotate 20s linear infinite reverse;
 }
 
+.smallBox a{
+    margin: 0;
+}
+
+.smallBox a{
+    display: flex;
+    margin: 40px 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smallBox.infoH{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 1200px){
     .container{
         width: 800px;
@@ -301,6 +318,24 @@ section{
         text-decoration: none;
         margin-left: 20px;
     }
+
+    .smallBox a{
+        margin: 0;
+    }
+
+    .smallBox a{
+        display: flex;
+        margin: 40px 70px;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+
+    .smallBox.infoH{
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -369,6 +404,29 @@ section{
         text-decoration: none;
         margin-left: auto;
     }
+    .main{
+        display: none;
+    }
+
+
+    .smallBox a{
+        margin: 0;
+    }
+
+    .smallBox a{
+        display: flex;
+        margin: 40px 70px;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+
+    .smallBox.infoH{
+        display: flex;
+        margin-left: 0 0 0 70px;
+        justify-content: space-between;
+    }
+
 }
 
 @media screen and (max-width: 585px) {
@@ -399,7 +457,12 @@ section{
     }
 
     .box.aboutText{
-        width: 400px;
+        width: 200px;
+    }
+
+    .box.aboutText p{
+        margin-left: 30px;
+        width: 350px;
     }
 
     .mainBox{
@@ -420,17 +483,18 @@ section{
         margin: 40px 0px;
         align-items: center;
         justify-content: space-between;
+        font-size: 20px;
     }
 
     .smallBox.infoH{
         display: flex;
         align-items: center;
-        margin-left: 70px;
+        margin-left: 0 0 0 30px;
         justify-content: space-between;
     }
 
-    .main{
-        display: none;
+    .smallBox{
+        width: 350px;
     }
 }
 
@@ -451,6 +515,9 @@ section{
         display: none;
     }
     
+    .smallBox.info{
+        margin-left: 30px;
+    }
 
     .img-rotate.particles.smallPic{
         display: flex;
