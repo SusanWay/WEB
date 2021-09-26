@@ -515,6 +515,7 @@ section{
     
     .smallBox.info{
         margin-left: 30px;
+        width: 270px;
     }
 
     .img-rotate.particles.smallPic{
@@ -525,7 +526,7 @@ section{
         display: none;
     }
 
-    .box.aboutText{
-        width: 360px;
+    .box.aboutText p{
+        width: 300px;
     }
 }
