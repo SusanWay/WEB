@@ -1,10 +1,13 @@
+body {
+    background-color: #040404;
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Inconsolata', monospace;
     font-weight: 900;
     color: white;
-    background-color: #040404;
 }
 
 ::selection {
@@ -40,12 +43,12 @@ li {
     color: #e9b171;
 }
 
-.conteiner{
+.container{
     width: 1140px;
     margin: 0 auto;
 }
 
-.menu ul a{
+.menu li a{
     text-decoration: none;
     margin-left: 40px;
 }
@@ -56,7 +59,7 @@ li {
     justify-content: space-between;
 }
 
-.nav li{
+.nav ul{
     display: flex;
 }
 
@@ -95,9 +98,7 @@ section{
 }
 
 .skillsText ul li p:hover{
-    color: #2d9687;
     cursor: pointer;
-    transition: 0.3s;
     color: #c22085;
     transition: 0.6s;
 }
@@ -111,4 +112,13 @@ section{
 .smallBox a{
     text-decoration: none;
     margin-left: 70px;
+}
+
+@keyframes infinite-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.img-rotate {
+    animation: infinite-rotate 20s linear infinite;
 }
